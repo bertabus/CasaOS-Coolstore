@@ -21,8 +21,8 @@ services:
         source: /DATA/AppData/$AppID/config
         target: /config
       - type: bind
-        source: /DATA/AppData/$AppID/caddyfile
-        target: /etc/caddy/caddyfile
+        source: /DATA/AppData/$AppID/Caddyfile.txt
+        target: /etc/caddy/Caddyfile
 x-casaos:
   architectures:
     - amd64
